@@ -1,9 +1,9 @@
 {
-  "name": "@sls-next/serverless-component",
+  "name": "@liquidautumn/serverless-component",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.17.0-alpha.6",
+  "version": "1.17.0-alpha.7",
   "description": "Serverless nextjs powered by Serverless Components",
   "main": "./serverless.js",
   "types": "dist/component.d.ts",
