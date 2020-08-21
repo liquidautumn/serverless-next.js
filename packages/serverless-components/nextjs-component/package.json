@@ -31,15 +31,15 @@
     "node": ">=10.11.0"
   },
   "dependencies": {
-    "@liquidautumn/aws-cloudfront": "^1.1.1-alpha.5",
-    "@liquidautumn/lambda-at-edge": "^1.6.0-alpha.6",
+    "@liquidautumn/aws-cloudfront": "link:../aws-cloudfront",
+    "@liquidautumn/lambda-at-edge": "link:../../libs/lambda-at-edge",
     "@serverless/aws-s3": "^4.2.0",
     "@serverless/core": "^1.1.2",
-    "@sls-next/aws-lambda": "1.0.2-alpha.1",
-    "@sls-next/cloudfront": "1.0.3-alpha.0",
-    "@sls-next/domain": "1.0.2-alpha.0",
-    "@sls-next/next-aws-cloudfront": "1.5.0-alpha.2",
-    "@sls-next/s3-static-assets": "1.3.0-alpha.3",
+    "@sls-next/aws-lambda": "link:../aws-lambda",
+    "@sls-next/cloudfront": "link:../../libs/cloudfront",
+    "@sls-next/domain": "link:../domain",
+    "@sls-next/next-aws-cloudfront": "link:../../compat-layers/lambda-at-edge-compat",
+    "@sls-next/s3-static-assets": "link:../../libs/s3-static-assets",
     "aws-sdk": "^2.702.0",
     "fs-extra": "^9.0.1"
   },
