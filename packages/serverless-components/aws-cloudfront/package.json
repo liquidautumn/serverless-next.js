@@ -1,6 +1,6 @@
 {
   "name": "@liquidautumn/aws-cloudfront",
-  "version": "1.1.1-alpha.7",
+  "version": "1.1.1-alpha.8",
   "main": "./serverless.js",
   "publishConfig": {
     "access": "public"
@@ -27,5 +27,6 @@
     "fs-extra": "^8.1.0",
     "jest": "^24.9.0",
     "prettier": "^1.15.3"
-  }
+  },
+  "gitHead": "0990491898514cf94abd6a8846eea46c074eaffc"
 }
